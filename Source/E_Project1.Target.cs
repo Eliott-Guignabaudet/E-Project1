@@ -8,7 +8,7 @@ public class E_Project1Target : TargetRules
 	public E_Project1Target(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-		DefaultBuildSettings = BuildSettingsVersion.V4;
+		DefaultBuildSettings = BuildSettingsVersion.V2;
 
 		ExtraModuleNames.AddRange( new string[] { "E_Project1" } );
 	}
